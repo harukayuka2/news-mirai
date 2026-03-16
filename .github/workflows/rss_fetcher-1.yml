@@ -1,0 +1,57 @@
+name: 📰 RSS Berita Indonesia — Auto Fetcher
+
+on:
+  schedule:
+    - cron: "0 * * * *"   # Setiap jam tepat
+  workflow_dispatch:        # Bisa dijalankan manual juga
+
+jobs:
+  fetch-rss:
+    name: Fetch & Push RSS
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 0
+
+      - name: 🐍 Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: 📦 Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: 🚀 Run RSS fetcher
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+        run: python fetch_rss.py
+
+      - name: 💾 Commit & push data
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Set strategi merge: file data/ selalu pakai versi lokal (hasil fetch terbaru)
+          git config merge.ours.driver true
+          echo "data/*.json merge=ours" >> .gitattributes
+
+          git add data/berita.json data/seen_ids.json
+
+          if git diff --cached --quiet; then
+            echo "✅ Tidak ada artikel baru, skip commit."
+            exit 0
+          fi
+
+          TIMESTAMP=$(TZ="Asia/Jakarta" date +"%Y-%m-%d %H:%M WIB")
+          git commit -m "chore: update berita RSS — $TIMESTAMP"
+
+          # Pull dengan strategi ours: konflik di data/ selalu dimenangkan versi lokal
+          git pull --rebase -X ours origin main
+
+          git push origin main
