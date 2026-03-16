@@ -12,36 +12,34 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      # 1. Checkout repo (termasuk data/ yang sudah ada)
       - name: ⬇️ Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 1
-          token: ${{ secrets.TOKEN }}
+          token: ${{ secrets.PAT_TOKEN }}
+          fetch-depth: 0
 
-      # 2. Setup Python
+      - name: 🔄 Pull & Rebase (anti-conflict)
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || echo "Tidak ada perubahan untuk di-rebase"
+
       - name: 🐍 Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: "pip"
 
-      # 3. Install dependencies
       - name: 📦 Install dependencies
         run: pip install -r requirements.txt
 
-      # 4. Jalankan script fetcher
       - name: 🚀 Run RSS fetcher
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
         run: python fetch_rss.py
 
-      # 5. Commit & push kalau ada perubahan
       - name: 💾 Commit & push data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update berita RSS — $(date -u +'%Y-%m-%d %H:%M UTC')"
+          commit_message: "chore: update berita RSS — run #${{ github.run_number }}"
           file_pattern: data/*.json
-          commit_user_name: github-actions[bot]
-          commit_user_email: github-actions[bot]@users.noreply.github.com
-          commit_author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
