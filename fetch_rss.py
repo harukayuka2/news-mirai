@@ -4,22 +4,30 @@ import os
 import hashlib
 import requests
 from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 # ─────────────────────────────────────────────
 # KONFIGURASI
 # ─────────────────────────────────────────────
-OUTPUT_FILE   = "data/berita.json"
-SEEN_FILE     = "data/seen_ids.json"
-MAX_PER_FEED  = 10          # max artikel per feed per run
+OUTPUT_FILE     = "data/berita.json"
+SEEN_FILE       = "data/seen_ids.json"
+MAX_PER_FEED    = 10
+MAX_TOTAL       = 5000
 DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK", "")
-feedparser.USER_AGENT = "Mozilla/5.0 (compatible; RSS-Berita-Indonesia-mirai/1.0; +https://github.com/harukayuka2/news-mirai)
+WIB             = ZoneInfo("Asia/Jakarta")
+
+# User-Agent agar tidak diblokir server
+USER_AGENT = "Mozilla/5.0 (compatible; RSS-Fetcher-Bot/1.0; +https://github.com/username/repo)"
+feedparser.USER_AGENT = USER_AGENT
 
 RSS_FEEDS = [
     {"name": "Antara - Top News",         "url": "https://www.antaranews.com/rss/top-news"},
     {"name": "Antara - Ekonomi",          "url": "https://www.antaranews.com/rss/ekonomi"},
-    {"name": "Antara - Nasional",         "url": "https://www.antaranews.com/rss/nas.xml"},
-    {"name": "Antara - Olahraga",         "url": "https://www.antaranews.com/rss/ork.xml"},
-    {"name": "Antara - Teknologi",        "url": "https://www.antaranews.com/rss/tek.xml"},
+    {"name": "Antara - Nasional",         "url": "https://www.antaranews.com/rss/nasional"},
+    {"name": "Antara - Olahraga",         "url": "https://www.antaranews.com/rss/olahraga"},
+    {"name": "Antara - Teknologi",        "url": "https://www.antaranews.com/rss/teknologi"},
     {"name": "Republika - Utama",         "url": "https://www.republika.co.id/rss"},
     {"name": "Republika - Nasional",      "url": "https://www.republika.co.id/rss/nasional/"},
     {"name": "Republika - Internasional", "url": "https://www.republika.co.id/rss/internasional/"},
@@ -48,10 +56,27 @@ RSS_FEEDS = [
 ]
 
 # ─────────────────────────────────────────────
+# HTTP SESSION dengan retry & timeout
+# ─────────────────────────────────────────────
+def make_session() -> requests.Session:
+    session = requests.Session()
+    retries = Retry(
+        total=2,
+        backoff_factor=0.5,
+        status_forcelist=[500, 502, 503, 504],
+    )
+    adapter = HTTPAdapter(max_retries=retries)
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    session.headers.update({"User-Agent": USER_AGENT})
+    return session
+
+SESSION = make_session()
+
+# ─────────────────────────────────────────────
 # HELPERS
 # ─────────────────────────────────────────────
 def make_id(url: str) -> str:
-    """Buat hash unik dari URL artikel."""
     return hashlib.md5(url.encode()).hexdigest()
 
 def load_json(path: str, default):
@@ -65,27 +90,41 @@ def save_json(path: str, data):
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
 
-def send_discord(new_count: int, failed_feeds: list, total_articles: int):
+def fetch_feed(url: str):
+    """Fetch RSS via requests dulu baru parse, agar timeout & User-Agent terkontrol."""
+    resp = SESSION.get(url, timeout=10)
+    resp.raise_for_status()
+    resp.encoding = resp.apparent_encoding or "utf-8"
+    return feedparser.parse(resp.text)
+
+def send_discord(new_count: int, failed_feeds: list, total_articles: int, last_fetched: str):
     if not DISCORD_WEBHOOK:
         print("⚠️  DISCORD_WEBHOOK tidak diset, skip notifikasi.")
         return
 
     color = 0x57F287 if new_count > 0 else 0x95A5A6
-    timestamp = datetime.now(timezone.utc).isoformat()
 
-    failed_text = "\n".join(f"• {f}" for f in failed_feeds) if failed_feeds else "Tidak ada ✅"
+    # Potong daftar gagal agar tidak melebihi limit 1024 karakter Discord
+    if failed_feeds:
+        shown = failed_feeds[:10]
+        failed_text = "\n".join(f"• {f}" for f in shown)
+        if len(failed_feeds) > 10:
+            failed_text += f"\n... dan {len(failed_feeds) - 10} lainnya"
+    else:
+        failed_text = "Tidak ada ✅"
 
     payload = {
         "embeds": [{
             "title": "📰 RSS Fetcher — Update Berita",
             "color": color,
             "fields": [
-                {"name": "🆕 Artikel Baru",    "value": str(new_count),    "inline": True},
+                {"name": "🆕 Artikel Baru",    "value": str(new_count),      "inline": True},
                 {"name": "📦 Total Tersimpan", "value": str(total_articles), "inline": True},
-                {"name": "⚠️ Feed Gagal",      "value": failed_text,       "inline": False},
+                {"name": "🕐 Last Fetch (WIB)", "value": last_fetched,       "inline": False},
+                {"name": "⚠️ Feed Gagal",       "value": failed_text,        "inline": False},
             ],
             "footer": {"text": "RSS Auto Fetcher"},
-            "timestamp": timestamp,
+            "timestamp": datetime.now(timezone.utc).isoformat(),
         }]
     }
 
@@ -100,8 +139,11 @@ def send_discord(new_count: int, failed_feeds: list, total_articles: int):
 # MAIN
 # ─────────────────────────────────────────────
 def main():
+    # Load data existing — support format lama (list) dan baru (dict dengan "articles")
+    raw = load_json(OUTPUT_FILE, [])
+    existing: list = raw.get("articles", raw) if isinstance(raw, dict) else raw
+
     seen_ids: set = set(load_json(SEEN_FILE, []))
-    existing: list = load_json(OUTPUT_FILE, [])
 
     new_articles = []
     failed_feeds  = []
@@ -109,10 +151,11 @@ def main():
     for feed_info in RSS_FEEDS:
         name = feed_info["name"]
         url  = feed_info["url"]
-        print(f"📡 Fetching: {name} ...", end=" ")
+        print(f"📡 Fetching: {name} ...", end=" ", flush=True)
 
         try:
-            parsed = feedparser.parse(url)
+            parsed = fetch_feed(url)
+
             if parsed.bozo and not parsed.entries:
                 raise ValueError(parsed.bozo_exception)
 
@@ -132,12 +175,12 @@ def main():
 
                 seen_ids.add(uid)
                 new_articles.append({
-                    "id":        uid,
-                    "source":    name,
-                    "title":     title,
-                    "url":       link,
-                    "summary":   summary,
-                    "published": pub,
+                    "id":         uid,
+                    "source":     name,
+                    "title":      title,
+                    "url":        link,
+                    "summary":    summary,
+                    "published":  pub,
                     "fetched_at": datetime.now(timezone.utc).isoformat(),
                 })
                 count += 1
@@ -148,20 +191,30 @@ def main():
             print(f"❌ Gagal: {e}")
             failed_feeds.append(name)
 
-    # Gabungkan artikel baru di depan, tapi batasi total agar tidak membengkak
-    MAX_TOTAL = 5000
-    all_articles = new_articles + existing
-    all_articles = all_articles[:MAX_TOTAL]
+    all_articles = (new_articles + existing)[:MAX_TOTAL]
 
-    save_json(OUTPUT_FILE, all_articles)
+    # Waktu WIB untuk metadata
+    now_wib       = datetime.now(WIB)
+    last_fetched  = now_wib.strftime("%Y-%m-%d %H:%M WIB")
+
+    # Simpan dengan struktur root yang rapi
+    output_data = {
+        "last_fetched":  last_fetched,
+        "fetch_count":   len(all_articles),
+        "new_this_run":  len(new_articles),
+        "articles":      all_articles,
+    }
+
+    save_json(OUTPUT_FILE, output_data)
     save_json(SEEN_FILE, list(seen_ids))
 
-    print(f"\n📊 Selesai: {len(new_articles)} artikel baru | Total: {len(all_articles)}")
+    print(f"\n📊 Selesai: {len(new_articles)} artikel baru | Total: {len(all_articles)} | {last_fetched}")
 
     send_discord(
         new_count      = len(new_articles),
         failed_feeds   = failed_feeds,
         total_articles = len(all_articles),
+        last_fetched   = last_fetched,
     )
 
 if __name__ == "__main__":
