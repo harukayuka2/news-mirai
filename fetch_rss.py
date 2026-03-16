@@ -12,6 +12,7 @@ OUTPUT_FILE   = "data/berita.json"
 SEEN_FILE     = "data/seen_ids.json"
 MAX_PER_FEED  = 10          # max artikel per feed per run
 DISCORD_WEBHOOK = os.environ.get("DISCORD_WEBHOOK", "")
+feedparser.USER_AGENT = "Mozilla/5.0 (compatible; RSS-Berita-Indonesia-mirai/1.0; +https://github.com/harukayuka2/news-mirai)
 
 RSS_FEEDS = [
     {"name": "Antara - Top News",         "url": "https://www.antaranews.com/rss/top-news"},
