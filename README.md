@@ -1,7 +1,7 @@
 # 📰 RSS Berita Indonesia — Auto Fetcher
 
 Scraper otomatis untuk mengumpulkan berita dari **30 portal berita Indonesia**, berjalan setiap jam via GitHub Actions, menyimpan hasil ke JSON, dan mengirim notifikasi ke Discord.
-
+---
 [![📰 RSS Berita Indonesia — Auto Fetcher](https://github.com/harukayuka2/news-mirai/actions/workflows/rss_fetcher.yml/badge.svg)](https://github.com/harukayuka2/news-mirai/actions/workflows/rss_fetcher.yml)
 ---
 
