@@ -38,18 +38,10 @@ jobs:
 
       # 5. Commit & push kalau ada perubahan
       - name: 💾 Commit & push data
-        run: |
-          git config user.name  "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/berita.json data/seen_ids.json
-          # Cek apakah ada perubahan sebelum commit
-          if git diff --cached --quiet; then
-            echo "✅ Tidak ada artikel baru, skip commit."
-          else
-            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
-            git commit -m "chore: update berita RSS — $TIMESTAMP"
-            # Pull rebase dulu biar tidak conflict kalau ada push dari luar
-            git pull --rebase origin HEAD
-            git push
-          fi
-          
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update berita RSS — $(date -u +'%Y-%m-%d %H:%M UTC')"
+          file_pattern: data/*.json
+          commit_user_name: github-actions[bot]
+          commit_user_email: github-actions[bot]@users.noreply.github.com
+          commit_author: github-actions[bot] <github-actions[bot]@users.noreply.github.com>
