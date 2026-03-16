@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 1
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ secrets.TOKEN }}
 
       # 2. Setup Python
       - name: 🐍 Setup Python
@@ -33,7 +33,7 @@ jobs:
       # 4. Jalankan script fetcher
       - name: 🚀 Run RSS fetcher
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD }}
         run: python fetch_rss.py
 
       # 5. Commit & push kalau ada perubahan
