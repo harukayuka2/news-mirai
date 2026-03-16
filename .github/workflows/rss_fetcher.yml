@@ -15,7 +15,7 @@ jobs:
       - name: ⬇️ Checkout repo
         uses: actions/checkout@v4
         with:
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ secrets.TOKEN }}
           fetch-depth: 0
 
       - name: 🔄 Pull & Rebase (anti-conflict)
@@ -35,7 +35,7 @@ jobs:
 
       - name: 🚀 Run RSS fetcher
         env:
-          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD }}
         run: python fetch_rss.py
 
       - name: 💾 Commit & push data
