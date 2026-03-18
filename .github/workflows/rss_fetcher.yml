@@ -8,7 +8,7 @@ on:
 jobs:
   fetch-rss:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
 
     steps:
       - uses: actions/checkout@v4
@@ -22,11 +22,20 @@ jobs:
 
       - run: pip install -r requirements.txt
 
-      - run: python fetch_rss.py
+      # ── Fetch RSS → data/berita.json ──────────────────────────────────────
+      - name: 📡 Fetch RSS feeds
+        run: python fetch_rss.py
         env:
           DISCORD_WEBHOOK: ${{ secrets.DISCORD }}
 
+      # ── Summarize → data/summary.json ─────────────────────────────────────
+      - name: 🤖 Summarize via Gemini
+        run: python news_summary.py --limit 100 --batch 20
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI }}
+
+      # ── Commit kedua file sekaligus ───────────────────────────────────────
       - uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "chore: update berita RSS"
-          file_pattern: data/berita.json
+          commit_message: "chore: update berita RSS & summary"
+          file_pattern: "data/berita.json data/summary.json"
