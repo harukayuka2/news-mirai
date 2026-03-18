@@ -32,7 +32,7 @@ jobs:
       - name: 🤖 Summarize via Gemini
         run: python news_summary.py --limit 100 --batch 20
         env:
-          GEMINI_API_KEY: ${{ secrets.GEMINI }}
+          GEMINI: ${{ secrets.GEMINI }}
 
       # ── Commit kedua file sekaligus ───────────────────────────────────────
       - uses: stefanzweifel/git-auto-commit-action@v5
