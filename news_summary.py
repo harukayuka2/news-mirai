@@ -22,8 +22,8 @@ from datetime import datetime, timezone
 
 # ─── Konfigurasi ─────────────────────────────────────────────────────────────
 
-MODEL          = "gemini-2.0-flash"          # Ganti ke "gemini-2.5-flash" jika tersedia
-API_KEY        = os.environ.get("GEMINI_API_KEY", "")
+MODEL          = "gemini-2.5-flash"          # Ganti ke "gemini-2.5-flash" jika tersedia
+API_KEY        = os.environ.get("GEMINI", "")
 API_URL        = (
     f"https://generativelanguage.googleapis.com/v1/models/{MODEL}"
     f":generateContent?key={API_KEY}"
