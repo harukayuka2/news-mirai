@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "generated_at": "2026-03-20T23:01:25.479019+00:00",
+    "generated_at": "2026-03-20T23:56:26.762373+00:00",
     "model": "gemini-2.5-flash",
     "total_articles": 100,
     "failed_batches": [
@@ -14,603 +14,603 @@
   "articles": [
     {
       "source": "Sindonews",
+      "title": "Masjid Negara IKN Gelar Salat Idulfitri Perdana untuk Masyarakat",
+      "summary": "Masjid Negara di Kawasan Inti Pusat Pemerintahan (KIPP), Ibu Kota Nusantara (IKN) perdana menyelenggarakan Salat Idulfitri berjamaah perdana pada 1 Syawal 1447 Hijriah/2026 Masehi, Sabtu (21/3/2026) dimulai pukul 06.30 WITA.",
+      "fetched_at": "2026-03-21 06:55 WIB"
+    },
+    {
+      "source": "Sindonews",
+      "title": "Jokowi Salat Idulfitri 2026 di Masjid Al-Bina GBK",
+      "summary": "Presiden ke-7 RI Joko Widodo (Jokowi) menunaikan salat idulfitri di Masjid Al-Bina, Kompleks Gelora Bung Karno (GBK), Jakarta Pusat, Sabtu (20/3/2026).",
+      "fetched_at": "2026-03-21 06:55 WIB"
+    },
+    {
+      "source": "Sindonews",
+      "title": "Prabowo Salurkan Ribuan Sembako untuk Warga di Medan saat Malam Takbiran",
+      "summary": "Presiden Prabowo Subianto menyalurkan ribuan bantuan sembako kepada masyarakat di Sumatera Utara pada malam takbiran Idulfitri 1447 Hijriah.",
+      "fetched_at": "2026-03-21 06:55 WIB"
+    },
+    {
+      "source": "Sindonews",
+      "title": "Inggris Ikut Gempur Iran, Teheran: Membahayakan Nyawa Warganya",
+      "summary": "Menteri Luar Negeri Iran Abbas Araghchi menuduh Perdana Menteri Inggris Keir Starmer membahayakan nyawa warga Inggris terkait kesepakatan Inggris untuk mengizinkan AS menggunakan pangkalan militer Inggris untuk menyerang situs-situs Iran yang menargetkan Selat Hormuz.",
+      "fetched_at": "2026-03-21 06:55 WIB"
+    },
+    {
+      "source": "Sindonews",
+      "title": "Open House di Istana Negara untuk 5 Ribu Masyarakat, Disiapkan Ketupat hingga Hiburan",
+      "summary": "Presiden Prabowo Subianto membuka pintu Istana Negara bagi 5.000 masyarakat umum untuk menghadiri acara open house dan silaturahmi Idulfitri 1447 H pada Sabtu (21/3/2026).",
+      "fetched_at": "2026-03-21 06:55 WIB"
+    },
+    {
+      "source": "Sindonews",
       "title": "Hikmah Hari Kemenangan : Istiqamah Menjalankan Ajaran Islam",
       "summary": "Hari Raya Idulfitri selalu diwarnai dengan kegembiraan di berbagai penjuru. Umat Islam merayakan momen yang disebut-sebut sebagai hari kemenangan dan saatnya kembali ke Fitrah. Apa sebenarnya makna Fitrah ?",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Sindonews",
       "title": "Perang Makin Berkobar! Trump Siap Kirim Pasukan Elite ke Iran",
       "summary": "Para pejabat Pentagon melakukan persiapan terperinci untuk mengerahkan pasukan darat AS ke Iran. Itu diungkapkan beberapa sumber yang diberi pengarahan tentang diskusi tersebut mengatakan kepada CBS News.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Sindonews",
       "title": "Sambut Idulfitri 2026, Sandiaga Uno Berbagi dengan Warga Pulau Seribu",
       "summary": "Yayasan Indonesia Setara (YIS) berkolaborasi dengan Majelis Taklim Darratun Nasihin menggelar santunan bagi masyarakat yang membutuhkan di Kepulauan Seribu.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Sindonews",
       "title": "Prabowo: Idulfitri Momentum untuk Perkuat Persatuan di Tengah Tantangan",
       "summary": "Presiden Prabowo Subianto mengajak masyarakat menjadikan momentum Idulfitri 1447 Hijriah untuk memperkuat persatuan di tengah tantangan, Jumat (20/3/2026).",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Sindonews",
       "title": "Kiai Kampung ala Gus Dur: Antara Tradisi dan Modernitas",
       "summary": "Gagasan tentang kiai kampung merupakan salah satu konsep sosial-keagamaan yang sering dikemukakan oleh Gus Dur dalam memahami dinamika Islam Indonesia.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
-      "source": "Sindonews",
-      "title": "Libur Lebaran, Kemenpar Siapkan Sejumlah Paket Wisata",
-      "summary": "Kemenpar menyiapkan sejumlah paket wisata untuk menyambut libur Idul Fitri 2026 untuk mendorong pergerakan wisata dan ekonomi di berbagai daerah.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "source": "Liputan6 - News",
+      "title": "Jokowi, Iriana, dan Kaesang Salat Id di Masjid Al-Bina GBK, Jamaah Sudah Memadati Sejak Pagi",
+      "summary": "Jokowi tiba di Masjid Al-Bina sekitar pukul 06.10 WIB. Ia tampak menggunakan baju koko panjang, lengkap dengan sarung dan kopiah hitam.",
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
-      "source": "Sindonews",
-      "title": "Perayaan Idulfitri Dibayangi Perang dan Pengungsian di Timur Tengah",
-      "summary": "Di sepanjang tepi laut pusat kota Beirut, Alaa sedang mencari tempat untuk beristirahat. Pengungsi Suriah ini, yang berasal dari Dataran Tinggi Golan yang diduduki Israel, kini menjadi tunawisma.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "source": "Liputan6 - News",
+      "title": "Kapolri Instruksikan Anak Buah Siaga Hadapi Potensi Bencana Saat Libur Lebaran",
+      "summary": "Ia meminta Satgas Bencana yang ada di pos-pos di daerah untuk mempersiapkan diri baik dari sisi personel maupun sarana dan prasarana.",
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
-      "source": "Sindonews",
-      "title": "Sri Lanka Tolak Permintaan AS untuk Mendaratkan 2 Jet Tempur di Bandara Mattala",
-      "summary": "Presiden Sri Lanka pada hari Jumat (20/3/2026) mengungkapkan negaranya menolak permintaan dari Amerika Serikat (AS) untuk mengizinkan dua jet tempurnya mendarat di Bandara Internasional Mattala. Kabar itu diungkap dalam laporan media lokal.",
-      "fetched_at": "2026-03-21 06:00 WIB"
-    },
-    {
-      "source": "Sindonews",
-      "title": "Mudik Asyik Bersama BUMN: PLN Fasilitasi 12.500 Warga Pulang Kampung Ramah Lingkungan",
-      "summary": "Badan Pengelola Investasi (BPI) Danantara bersama Badan Pengaturan Badan Usaha Milik Negara (BP BUMN) resmi melepas 116.688 peserta Program Mudik Gratis",
-      "fetched_at": "2026-03-21 06:00 WIB"
-    },
-    {
-      "source": "Sindonews",
-      "title": "Kantor Pertanahan se-Banten Tetap Buka selama Libur Idulfitri 2026",
-      "summary": "Selama cuti bersama Idulfitri 2026, masyarakat Banten masih bisa mendapatkan layanan pertanahan. Hal itu untuk membantu masyarakat dalam mengurus sertifikat.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "source": "Liputan6 - News",
+      "title": "Detik-Detik Polisi Gagalkan Aksi Bunuh Diri di JPO Mega Bekasi Hypermall",
+      "summary": "Anggota melakukan upaya penyelamatan dengan pendekatan dialogis dan humanis agar pria itu mau turun.",
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - News",
       "title": "Kapolri: Puncak Arus Balik Mulai 24 Maret 2026",
       "summary": "Kapolri berpesan kepada pemudik untuk tetap hati-hati. Manfaatkan rest area, dan pos terpadu untuk beristirahat.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - News",
       "title": "Prabowo Gelar Open House Lebaran di Istana Sabtu Siang, Terbuka untuk Warga",
       "summary": "Kegiatan ini akan dikemas dalam bentuk halalbihalal dan silaturahmi bersama warga, sebagai wujud keterbukaan dan kedekatan Presiden dengan masyarakat.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - News",
       "title": "Prabowo Bagi-Bagi Sembako Saat Malam Takbiran di Medan",
       "summary": "Presiden Prabowo Subianto menyalurkan sembako kepada masyarakat di Sumatra Utara pada malam takbiran Idul Fitri 1447 Hijriah.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - News",
       "title": "Kapolri Sebut Angka Kecelakaan dan Korban Jiwa di Mudik Lebaran 2026 Alami Penurunan",
       "summary": "Kapolri Jenderal Listyo Sigit Prabowo menyebut jumlah kecelakaan lalu lintas dan angka fatalitas atau korban meninggal dunia menurun di arus mudik Lebaran 2026.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - News",
       "title": "Pemudik Jakarta-Tasikmalaya Kecelakaan di Garut Akibat Mabuk, Ternyata Pengaruh Miras",
       "summary": "Polisi mengevakuasi pemudik yang mengalami kecelakaan tunggal diduga akibat mabuk saat mengendarai sepeda motor di Jalan Sudirman, Garut, Jawa Barat.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - News",
       "title": "Mobil Tabrak Resto Jepang di Gading Serpong, Diduga Hilang Kendali",
       "summary": "Sebuah mobil menabrak sebuah restoran makanan Jepang di daerah Ruko Gading Serpong, Tangerang pada Kamis, 19 Maret 2026 siang.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - News",
       "title": "Semarak Malam Takbiran di Bundaran HI, Pramono: Jadi Identitas Jakarta Kota Inklusif dan Berbudaya",
       "summary": "Pemprov DKI Jakarta menggelar rangkaian perayaan malam takbiran festival bedug pada Jumat (20/3/2026) malam.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
-      "source": "Liputan6 - News",
-      "title": "Jokowi dan Iriana Lebaran di Jakarta, Bakal Salat Idul Fitri di Masjid Al-Bina GBK",
-      "summary": "Presiden Ke-7 RI Jokowi beserta istrinya, Iriana Jokowi merayakan Hari Raya Idul Fitri 1447 Hijriah di Jakarta.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "source": "Liputan6 - Bola",
+      "title": "Kalender F1 2026 Menciut: Setelah GP Bahrain dan Arab Saudi, Satu Balapan Lagi Terancam Batal",
+      "summary": "Ketidakpastian menyelimuti Formula 1 2026. Setelah GP Bahrain dan Arab Saudi dibatalkan, satu balapan F1 lagi terancam batal.",
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
-      "source": "Liputan6 - News",
-      "title": "Takbiran di Car Free Night Bundaran HI, Hujan Tak Surutkan Antusias Warga",
-      "summary": "Hujan deras yang mengguyur Jakarta pada Jumat (20/3/2026) malam tidak menyurutkan antusias warga menikmati malam takbiran di Car Free Night Bundaran HI.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "source": "Liputan6 - Bola",
+      "title": "Hasil Orleans Masters 2026: Rachel/Febi Harus Lebih Siap dan Pede Lawan Pasangan Jepang di Semifinal",
+      "summary": "Ganda putri Indonesia Rachel Allessya Rose/Febi Setianingrum bertemu pasangan Jepang Sumire Nakade/Miyu Takahashi di semifinal Orleans Masters 2026.",
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
-      "source": "Liputan6 - News",
-      "title": "Prabowo Ucapkan Selamat Idul Fitri 1447 H: Momentum Perkuat Persatuan di Tengah Berbagai Tantangan",
-      "summary": "Presiden Prabowo mengucapkan selamat Hari Raya Idul Fitri 1447 Hijriah bagi umat muslim di Indonesia.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "source": "Liputan6 - Bola",
+      "title": "Hasil Orleans Masters 2026: Terburu-buru, Raymond/Joaquin Gagal Susul Leo/Bagas ke Semifinal",
+      "summary": "Ganda putra Indonesia Raymond Indra/Nikolaus Joaquin gagal mengikuti langkah rekannya Leo Rolly Carnando/Bagas Maulana ke semifinal Orleans Masters 2026.",
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Bola",
       "title": "Bournemouth vs Manchester United: Harry Maguire Blunder, MU Gagal Menang",
       "summary": "Bournemouth memaksa Manchester United bermain imbang 2-2 di laga lanjutan Liga Inggris. Hasil tak maksimal ini tidak lepas dari blunder Harry Maguire.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Bola",
       "title": "Jelang Arsenal vs Man City, Arteta Ungkap Kabar Krusial soal Dua Pemain Kunci The Gunners",
       "summary": "Mikel Arteta ungkap kondisi Timber dan Odegaard jelang final Carabao Cup Arsenal vs Man City, plus dilema besar dalam pemilihan skuad.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Bola",
       "title": "Brighton vs Liverpool, Arne Slot Pastikan Mohamed Salah Absen",
       "summary": "Arne Slot pastikan Mohamed Salah absen saat Liverpool tandang ke Brighton. Cedera otot jadi penyebab, berapa lama ia menepi?",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Bola",
       "title": "Bournemouth vs Manchester United Sudah Mulai, Ini Link Live Streaming Liga Inggris di SCTV dan Vidio",
       "summary": "Bournemouth vs Manchester United dapat disaksikan langsung melalui SCTV atau Vidio.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Bola",
       "title": "Timnas Inggris Coret Nama Trent Alexander-Arnold, Ini Penjelasan dari Thomas Tuchel",
       "summary": "Thomas Tuchel jelaskan alasan tak memanggil Trent Alexander-Arnold ke skuad Timnas Inggris terbaru jelang laga uji coba internasional.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Bola",
       "title": "AC Milan vs Torino, Rossoneri Dapat Kabar Buruk: Rafael Leao Tiba-Tiba Absen!",
       "summary": "AC Milan kehilangan Rafael Leao jelang lawan Torino di Serie A. Cedera otot jadi penyebab, siapa penggantinya?",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Bola",
       "title": "Manchester United Diam-Diam Amankan Masa Depan! Mainoo dan Maguire Segera Teken Kontrak Baru",
       "summary": "Manchester United dikabarkan segera memperpanjang kontrak Kobbie Mainoo dan Harry Maguire di tengah perburuan tiket empat besar Liga Inggris.",
-      "fetched_at": "2026-03-21 06:00 WIB"
-    },
-    {
-      "source": "Liputan6 - Bola",
-      "title": "Juventus Buka Pembicaraan dengan Mateo Retegui, Milan Tak Mau Kalah",
-      "summary": "Mateo Retegui dikabarkan membuka komunikasi dengan dua raksasa Italia, Juventus dan AC Milan.",
-      "fetched_at": "2026-03-21 06:00 WIB"
-    },
-    {
-      "source": "Liputan6 - Bola",
-      "title": "Tempat Menonton Bournemouth vs Man Utd, Minggu 21 Maret 2026 Pukul 03.00 WIB",
-      "summary": "Bournemouth vs Man Utd berlangsung di Vitality Stadium, Sabtu (21/3/2026) pukul 03.00 WIB.",
-      "fetched_at": "2026-03-21 06:00 WIB"
-    },
-    {
-      "source": "Liputan6 - Bola",
-      "title": "Endrick Bangkit di Lyon, Akui Sulitnya Menembus Skuad Real Madrid",
-      "summary": "Endrick sempat mengalami masa sulit bersama Real Madrid, sebelum akhirnya menemukan kembali performa terbaiknya di Lyon.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Tekno",
       "title": "10 Prompt AI untuk Kartu Lebaran 2026, Bikin Ucapan Idulfitri Lebih Personal dan Unik",
       "summary": "Ini prompt AI yang bisa dipakai untuk membuat kartu Idulfitri 2026 dan ucapan Lebaran terasa lebih hangat dan personal.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Tekno",
       "title": "Harga Huawei MatePad 11.5, Tablet Unggul dengan Layar PaperMatte dan Kinerja Setara Laptop",
       "summary": "Huawei MatePad 11.5 hadir sebagai solusi tablet produktivitas yang mengesankan, menawarkan pengalaman penggunaan layaknya laptop dalam balutan desain premium.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Tekno",
       "title": "Harga Samsung Galaxy Tab A9, Tablet Ringkas dengan Performa Andal dan Harga Terjangkau",
       "summary": "Samsung Galaxy Tab A9 hadir sebagai solusi tablet yang ideal bagi Anda yang mencari perangkat ringkas, stylish, dan fungsional tanpa menguras kantong.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Tekno",
       "title": "Terbongkar, Begini Cara FBI Beli Data Lokasi Warga Tanpa Surat Perintah!",
       "summary": "FBI dan sejumlah agensi federal lainnya menemukan celah hukum, di mana mereka tidak mencuri data, melainkan membelinya dari pialang data.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Tekno",
       "title": "Peringatan Google Hapus Foto di HP Android, Ini Penyebab dan Cara Mengatasinya",
       "summary": "Google ingatkan memori HP penuh bisa bikin lemot. Ketahui penyebab dan cara mengatasinya agar performa tetap cepat dan optimal.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Tekno",
       "title": "Harga Lenovo Tab M10 Plus Gen 3, Tablet 2K Imersif untuk Hiburan dan Produktivitas",
       "summary": "Lenovo Tab M10 Plus Gen 3 hadir sebagai tablet Android serbaguna yang memadukan desain premium dengan fitur-fitur canggih dan dukungan produktivitas ringan.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Tekno",
       "title": "Cara Pantau CCTV Online di Tol Untuk Hindari Macet Saat Mudik",
       "summary": "CCTV Online jadi solusi praktis bagi pemudik untuk memantau lalu lintas tol secara langsung, sehingga perjalanan lebih lancar dan efisien.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Tekno",
       "title": "WhatsApp Hadir di Smartwatch Garmin, Balas Pesan Langsung dari Pergelangan Tangan",
       "summary": "WhatsApp resmi meluncur di smartwatch Garmin, memungkinkan pengguna membaca dan membalas pesan langsung tanpa membuka ponsel.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Tekno",
       "title": "Meta Batal Matikan Horizon Worlds di VR Quest, Selamat dalam Hitungan Sehari",
       "summary": "Meta berubah pikiran soal nasib Horizon Worlds di headset VR Quest. Setelah sempat mengumumkan penutupan pada Juni 2026.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Tekno",
       "title": "Harga Nintendo Switch OLED: Layar Memukau, Penyimpanan Ganda, Pengalaman Gaming Lebih Imersif",
       "summary": "Nintendo Switch OLED Model hadir sebagai evolusi dari konsol hybrid populer, menawarkan peningkatan signifikan pada pengalaman visual dan fungsionalitas.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
+    },
+    {
+      "source": "Liputan6 - Lifestyle",
+      "title": "8 Ide Kreasi Minuman di Hari Kedua Lebaran, Cocok Dinikmati Bareng Keluarga Besar",
+      "summary": "Ide minuman Lebaran ini bisa dibikin di teko hingga 4,1 liter, praktis dibuat bersama dan cocok untuk keluarga besar.",
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Lifestyle",
       "title": "10 Tempat Healing di Jateng yang Wajib Dikunjungi Setelah Libur Lebaran",
       "summary": "Jelajahi 10 Tempat Healing yang Wajib Dikunjungi di Jateng, dari pegunungan hingga pantai, untuk menyegarkan pikiran dan tubuh sebelum kembali bekerja usai libu",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Lifestyle",
       "title": "Rekomendasi 8 Tanaman Tropis yang Tumbuh Subur di Halaman Rumah",
       "summary": "Tanaman tropis merupakan solusi ramah lingkungan untuk menahan limpasan air hujan, sekaligus mempercantik halaman rumah.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Lifestyle",
       "title": "8 Resep Ikan Mujair Spesial Hidangan Lebaran, Lezat dan Menggugah Selera",
       "summary": "Resep ikan mujair spesial hidangan Lebaran yang gurih dan praktis, mulai dari mujair goreng bumbu kuning hingga rica-rica yang menggugah selera.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Lifestyle",
       "title": "7 Cara Menghilangkan Bau Bawang di Tangan Tanpa Sabun, Manfaaatkan Bahan Rumah",
       "summary": "Bau bawang membandel di tangan setelah mengolahnya? Jangan khawatir. Temukan 7 cara menghilangkan bau bawang di tangan tanpa sabun secara alami dan efektif.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Lifestyle",
       "title": "Perubahan Liburan Idul Fitri di Uni Emirat Arab di Tengah Perang Iran vs Israel dan AS",
       "summary": "Warga UEA menyebut kekhawatiran akan keselamatan, gangguan penerbangan, atau takut terjebak di luar negeri terkait liburan Idul Fitri mereka.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Lifestyle",
       "title": "Pesona Lili Reinhart Muncul di Video Musik BTS SWIM",
       "summary": "Kemunculan Lili Reinhart di video musik BTS \"SWIM\" menimbulkan teori di kalangan penggemar.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Lifestyle",
       "title": "Taksi Bandara Suvarnabhumi Bangkok Tangguhkan Layanan Buntut Krisis Bahan Bakar",
       "summary": "Penangguhan layanan taksi Bandara Suvarnabhumi Bangkok berlaku terutama untuk perjalanan-perjalanan jarak jauh.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Lifestyle",
       "title": "6 Resep Bistik Daging Sapi Tepung, Kreasi Lezat dan Pilihan Tepat untuk Santapan Keluarga",
       "summary": "Jelajahi resep bistik daging sapi tepung yang menggugah selera, mulai dari yang sederhana hingga crispy, cocok untuk hidangan istimewa keluarga Anda.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Lifestyle",
       "title": "9 Ide Menu Lebaran Selain Opor yang Menggugah Selera, Istimewa di Hari Raya",
       "summary": "Bosankah dengan opor? Temukan 9 ide menu Lebaran selain opor yang unik dan lezat untuk sajian istimewa di hari raya Anda. Dijamin bikin penasaran!",
-      "fetched_at": "2026-03-21 06:00 WIB"
-    },
-    {
-      "source": "Liputan6 - Lifestyle",
-      "title": "Saatnya Berlomba Kebaikan di Ramadan, Pilih Hampers Terbaik dan Nikmati Keuntungannya Bersama BNI",
-      "summary": "Kirim hampers Ramadan lebih hemat dengan promo spesial BNI di berbagai merchant favorit seperti Bacha Coffee, J.CO, Lapis-Lapis, hingga The Harvest.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Regional",
       "title": "Konvoi Takbiran Dilarang Melintasi Jalur Utama Mudik di Cianjur, Ini Alasannya",
       "summary": "Polisi melarang kegiatan takbiran keliling dalam bentuk iring-iringan atau konvoi kendaraan, khususnya di jalur utama mudik.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Regional",
       "title": "Takbiran di Balik Penjara Peninggalan Belanda Tahun 1885",
       "summary": "Rutan Serang berdiri 141 tahun lalu atau 1885 itu menjadi tempat perayaan malam takbiran dengan sederhana.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Regional",
       "title": "Gudang Solar di Lampung Terbakar, Ada Dugaan Keterlibatan Anggota Brimob",
       "summary": "Kebakaran hebat melanda sebuah gudang yang diduga menjadi lokasi penimbunan BBM ilegal jenis solar di Jalan Raden Gunawan, Lampung.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Regional",
       "title": "Disamarkan dalam Botol Bekas, Penyelundupan 1,7 Ton Minyak Tanah Subsidi Diamankan Polisi",
       "summary": "Minyak tanah subsidi tersebut rencananya akan dikirim ke Nusa Tenggara Barat (NTB) untuk diperjualbelikan kembali secara ilegal.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Regional",
       "title": "Gapura 'Selamat Datang Purwodadi Grobogan' Roboh Diterjang Hujan dan Angin, Akses Jalan Sempat Lumpuh",
       "summary": "Karena kondisi gapura membentang, maka arus kendaraan dari Kudus dan Blora menuju solo melalui kota Purwodadi dan sebaliknya sempat terhenti.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Regional",
       "title": "Puncak Mudik Terlewati, Polisi Terapkan One Way Situasional ke Palabuhanratu Sukabumi",
       "summary": "Kapolda menginstruksikan penerapan sistem one way (satu arah) sepenggal guna mengantisipasi serbuan wisatawan, terutama yang datang dari arah Jakarta.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Regional",
       "title": "Travel Gelap Marak di Rute Jakarta-Jampang, 15 Kendaraan Ditindak",
       "summary": "Travel gelap ini mayoritas melayani rute Jakarta menuju wilayah Jampang.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Regional",
       "title": "Curi Kabel dan Mesin AC, Empat Buruh Harian Diciduk di Sukabumi",
       "summary": "Keempat tersangka yang kini diamankan adalah ES (29), RN (25), B (41), dan AS (31).",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Regional",
       "title": "Detik-Detik Tabrakan Maut di Lampung, Pemotor Tewas di Tempat",
       "summary": "Warga sekitar yang melihat kejadian langsung memberikan pertolongan dan menghubungi ambulans.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Liputan6 - Regional",
       "title": "Alasan Wali Kota Sukabumi Tolak Izin Lapangan Merdeka untuk Salat Idulfitri Warga Muhammadiyah",
       "summary": "Ribuan jemaah menyoraki Wali Kota Sukabumi, Ayep Zaki.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
+    },
+    {
+      "source": "JPNN",
+      "title": "RI Hemat Rp 5 Triliun saat MBG Libur di Momen Lebaran",
+      "summary": "<img align=\"left\" height=\"90\" hspace=\"7\" src=\"https://cloud.jpnn.com/photo/galeri/watermark/2026/02/24/murid-kelas-v-menerima-makanan-program-makan-bergizi-gratis-ahkg.jpg\" width=\"120\" /><strong>JPNN.com</strong>, JAKARTA - Program Makan Bergizi Gratis (MBG) untuk para siswa, lansia, dan ibu hamil dihentikan sementara selama libur Lebaran 2026, mulai 18-30 Maret 2026.",
+      "fetched_at": "2026-03-21 06:55 WIB"
+    },
+    {
+      "source": "JPNN",
+      "title": "Pemkot Siapkan 2.124 titik untuk Salat Idulfitri 1447 Hijriah",
+      "summary": "<img align=\"left\" height=\"90\" hspace=\"7\" src=\"https://cloud.jpnn.com/photo/galeri/normal/2022/05/02/umat-islam-menunaikan-ibadah-shalat-idul-fitri-1-syawal-1443-emwj.jpg\" width=\"120\" /><strong>JPNN.com</strong>, BANDUNG - Pemkot Kota Bandung memastikan sebanyak 2.124 titik siap menggelar salat Idulfitri 1447 Hijriah yang tersebar di seluruh wilayah Kota Kembang.",
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "JPNN",
       "title": "Seskab Teddy Bilang Istana Terbuka Untuk Warga, Ada Makanan & Hiburan",
       "summary": "<img align=\"left\" height=\"90\" hspace=\"7\" src=\"https://cloud.jpnn.com/photo/arsip/normal/2026/02/27/seskab-teddy-menegaskan-mbg-tidak-mengurangi-anggaran-pendid-vyvc.jpg\" width=\"120\" /><strong>JPNN.com</strong> - JAKARTA - Sekretaris Kabinet Teddy Indra Wijaya menyatakan bahwa Istana Kepresidenan Jakarta terbuka untuk umum pada <a href=\"https://www.jpnn.com/tag/idulfitri\" title=\"Semua artikel tentang Idulfitri\">Idulfitri</a>, Sabtu (21/3).",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "JPNN",
       "title": "Jadwal & Harga Tiket Bus AKAP dari Bali ke Pulau Jawa Sabtu (21/3), Cek!",
       "summary": "<img align=\"left\" height=\"90\" hspace=\"7\" src=\"https://cloud.jpnn.com/photo/bali/news/watermark/2025/02/13/bus-sinar-jaya-rute-denpasar-jakarta-melaju-di-jalan-bypass-zrpw.jpg\" width=\"120\" /><strong>bali.jpnn.com</strong>, DENPASAR - Bagi Anda yang hendak melakukan perjalanan keluar masuk <a href=\"https://bali.jpnn.com/tag/bali\" title=\"Semua artikel tentang Bali\">Bali</a> pada Sabtu hari ini (21/3), tidak perlu khawatir.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "JPNN",
       "title": "Lautan Manusia! 10 Ribu Warga Denpasar Tumpah Ruah Rayakan Malam Takbiran",
       "summary": "<img align=\"left\" height=\"90\" hspace=\"7\" src=\"https://cloud.jpnn.com/photo/bali/news/normal/2026/03/21/umat-muslim-dusun-wanasari-menggelar-malam-takbiran-jelang-i-gleb.jpg\" width=\"120\" /><strong>bali.jpnn.com</strong>, DENPASAR - Umat Muslim di Bali merayakan malam kemenangan setelah sebulan berpuasa <a href=\"https://bali.jpnn.com/tag/ramadan\" title=\"Semua artikel tentang Ramadan\">Ramadan</a> dengan menggelar malam takbiran, Jumat (20/3) malam kemarin.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "JPNN",
       "title": "Kalender Bali Sabtu (21/3): Baik untuk Upacara Penyucian Diri & Memberikan Petuah",
       "summary": "<img align=\"left\" height=\"90\" hspace=\"7\" src=\"https://cloud.jpnn.com/photo/bali/news/watermark/2026/03/01/kalender-bali-1-maret-2026-bertepatan-dengan-redite-paing-ug-7ofr.jpg\" width=\"120\" /><strong>bali.jpnn.com</strong>, DENPASAR - Sabtu hari ini (21/3) berdasarkan <a href=\"https://bali.jpnn.com/tag/kalender-bali\" title=\"Semua artikel tentang kalender Bali\">kalender Bali</a> masuk Saniscara Paing Kulawu.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "JPNN",
       "title": "Makin Mengerikan! Jenderal Iran Ancam Serang Taman & Tempat Wisata di Seluruh Dunia",
       "summary": "<img align=\"left\" height=\"90\" hspace=\"7\" src=\"https://cloud.jpnn.com/photo/arsip/watermark/2020/01/06/pasukan-garda-revolusi-islam-iran-di-base-rudal-bawah-tanah-dengan-unit-pelontar-di-lokasi-yang-dirahasiakan-di-foto-yang-tidak-bertanggal-dari-fars-news-ilustrasi-foto-reutersfarsnewscomhandout-via-reuters-58.jpg\" width=\"120\" /><strong>JPNN.com</strong>, TEHRAN - Iran tidak segan-segan menyerang lokasi wisata di seluruh dunia demi menghabisi musuh-musuh mereka.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "JPNN",
       "title": "10 Besar Practice MotoGP Brasil, Toprak Bikin Kejutan",
       "summary": "<img align=\"left\" height=\"90\" hspace=\"7\" src=\"https://cloud.jpnn.com/photo/arsip/normal/2026/03/21/toprak-foto-evaristo-saafp-zhgmx-c0im.jpg\" width=\"120\" /><strong>JPNN.com</strong> - GOIANIA - Practice <a href=\"https://www.jpnn.com/tag/motogp-brasil\" title=\"Semua artikel tentang MotoGP Brasil\">MotoGP Brasil</a> 2026 berakhir manis buat pembalap Turki penunggang Kuda Besi Pramac Yamaha, Toprak Razgatlioglu.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "JPNN",
       "title": "Perkuat Kesiapan Operasional Angkutan Lebaran, KAI Logistik Distribusikan 4 Lokomotif Hidrolik",
       "summary": "<img align=\"left\" height=\"90\" hspace=\"7\" src=\"https://cloud.jpnn.com/photo/arsip/normal/2025/10/15/kai-logistik-foto-dok-kai-logistik-81ntg-syl9.jpg\" width=\"120\" /><strong>JPNN.com</strong>, JAKARTA - KAI Logistik kembali bersinergi dengan induk perusahaan, PT Kereta Api Indonesia (KAI), dalam mendukung optimalisasi operasional kereta api pada masa angkutan Lebaran 1447 H.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "JPNN",
       "title": "Jawab Isu Pengiriman TNI ke Gaza, Prabowo Singgung Hamas",
       "summary": "<img align=\"left\" height=\"90\" hspace=\"7\" src=\"https://cloud.jpnn.com/photo/arsip/normal/2026/03/19/presiden-prabowo-subianto-berdiskusi-dengan-beberapa-jurnali-pm40.jpg\" width=\"120\" /><strong>JPNN.com</strong> - Presiden RI <a href=\"https://www.jpnn.com/tag/prabowo-subianto\" title=\"Semua artikel tentang Prabowo Subianto\">Prabowo Subianto</a> menyatakan rencana pengiriman pasukan perdamaian Indonesia ke Gaza yang masih ditunda, bukan untuk melucuti senjata kelompok Hamas.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
-      "source": "JPNN",
-      "title": "Sebanyak Ini THR PNS dan PPPK di Bintan, Penyaluran Tuntas",
-      "summary": "<img align=\"left\" height=\"90\" hspace=\"7\" src=\"https://cloud.jpnn.com/photo/arsip/watermark/2020/05/07/usulan-cetak-uang-hingga-rp-600-triliun-ditentang-rizal-ramli-ilustrasi-foto-dokjpnncom-85.jpg\" width=\"120\" /><strong>JPNN.com</strong> - Pemerintah Kabupaten (Pemkab) Bintan, Kepulauan Riau (Kepri) telah menyalurkan tunjangan hari raya (THR) Idulfitri 1447 Hijriah.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "source": "Media Indonesia",
+      "title": "Chuck Norris Meninggal Dunia di Usia 86 Tahun, Legenda Aksi dan Bela Diri Dunia Berduka",
+      "summary": "Aktor laga legendaris Chuck Norris meninggal dunia di usia 86 tahun di Hawaii. Simak perjalanan karier bela diri dan daftar film ikoniknya.",
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
-      "source": "JPNN",
-      "title": "Aktor Legendaris Chuck Norris Meninggal Dunia",
-      "summary": "<img align=\"left\" height=\"90\" hspace=\"7\" src=\"https://cloud.jpnn.com/photo/arsip/normal/2026/03/21/chuck-norris-foto-instagramchucknorris-t1bgr-eix2.jpg\" width=\"120\" /><strong>JPNN.com</strong>, HAWAII - Aktor legendaris, <a href=\"https://www.jpnn.com/tag/chuck-norris\" title=\"Semua artikel tentang Chuck Norris\">Chuck Norris</a>, dikabarkan meninggal dunia pada Kamis (19/3) pagi waktu setempat.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "source": "Media Indonesia",
+      "title": "Thomas Tuchel Panggil 35 Pemain ke Timnas Inggris: Kobbie Mainoo Kembali",
+      "summary": "Gelandang muda Manchester United, Kobbie Mainoo, kembali dipercaya memperkuat The Three Lions setelah menunjukkan performa impresif di bawah asuhan Michael Carrick.&nbsp;",
+      "fetched_at": "2026-03-21 06:55 WIB"
+    },
+    {
+      "source": "Media Indonesia",
+      "title": "Cristhian Mosquera Dipanggil ke Timnas Spanyol Jelang Piala Dunia 2026",
+      "summary": "Pemanggilan ke timnas Spanyol ini mengakhiri spekulasi mengenai masa depan internasional Cristhian Mosquera karena pemain Arsenal itu juga memiliki paspor Kolombia.",
+      "fetched_at": "2026-03-21 06:55 WIB"
+    },
+    {
+      "source": "Media Indonesia",
+      "title": "Perkuat Harmoni, Pemprov DKI Jakarta Gelar Jakarta Bedug Kolosal di Bundaran HI",
+      "summary": "Selain parade bedug, suasana malam takbiran semakin semarak dengan pawai obor yang melibatkan 5.000 peserta, pawai mobil hias, serta pertunjukan air mancur.",
+      "fetched_at": "2026-03-21 06:55 WIB"
+    },
+    {
+      "source": "Media Indonesia",
+      "title": "Prakiraan Cuaca DKI Jakarta 21 Maret 2026: Waspada Hujan Ringan di Sore Hari",
+      "summary": "BMKG memprediksi cuaca DKI Jakarta pada 21 Maret 2026 didominasi berawan tebal dengan potensi hujan ringan di sore hari. Simak detailnya.",
+      "fetched_at": "2026-03-21 06:55 WIB"
+    },
+    {
+      "source": "Media Indonesia",
+      "title": "BRImo Beri Cashback hingga 20 Persen untuk Tagihan Bulanan saat Lebaran",
+      "summary": "Bayar tagihan di BRImo bisa dapat cashback hingga 20 persen. Berlaku untuk listrik, BPJS, PDAM, hingga top up e-wallet.&nbsp;Cek syarat dan cara klaimnya.",
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Media Indonesia",
       "title": "Kapolri Prediksi Puncak Arus Balik Lebaran 1446 H Dimulai 24 Maret",
       "summary": "Kapolri Jenderal Pol. Listyo Sigit Prabowo memprediksi puncak arus balik Hari Raya Idul Fitri 1446 Hijriah akan dimulai pada 24 Maret 2026.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Media Indonesia",
       "title": "Prakiraan Cuaca Indonesia, Sabtu 21 Maret 2026: Waspada Hujan Petir di Sejumlah Kota",
       "summary": "BMKG menjelaskan, dalam 24 jam ke depan siklon tersebut diprediksi bergerak ke arah barat menuju Teluk Carpentaria dengan kecepatan angin maksimum mencapai 65 knot dan tekanan minimum&nbsp;978 hPa.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Media Indonesia",
       "title": "Bournemouth vs Manchester United, Harry Maguire Kartu Merah, Laga Berakhir Imbang 2-2",
       "summary": "Laga Liga Primer Inggris antara Bournemouth dan Manchester United berakhir imbang 2-2 usai Harry Maguire diganjar kartu merah.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Media Indonesia",
       "title": "Villarreal vs Real Sociedad, Cetak 3 Gol dalam 23 Menit, Kapal Selam Kuning Menang Telak",
       "summary": "Berkat kemenangan ini, Villarreal menduduki peringkat tiga klasemen La Liga dengan raihan 58 poin dari 29 laga. Adapun Real Sociedad tertahan di peringkat tujuh dengan torehan 38 poin.",
-      "fetched_at": "2026-03-21 06:00 WIB"
-    },
-    {
-      "source": "Media Indonesia",
-      "title": "Genoa vs Udinese, Juergen Ekkelenkamp dan Keinan Davis Pastikan Kemenangan I Friulani",
-      "summary": "Udinese sukses mencuri poin penuh di markas Genoa dengan skor 2-0. Gol Juergen Ekkelenkamp dan Keinan Davis pastikan kemenangan tim tamu.",
-      "fetched_at": "2026-03-21 06:00 WIB"
-    },
-    {
-      "source": "Media Indonesia",
-      "title": "Lens vs Angers, Menang Telak, Les Sang et Or Puncaki Klasemen Ligue 1",
-      "summary": "Lens menang telak 5-1 atas Angers di Ligue 1. Florian Thauvin dan Odsonne Edouard tampil gemilang bawa Sang et Or ke puncak klasemen.",
-      "fetched_at": "2026-03-21 06:00 WIB"
-    },
-    {
-      "source": "Media Indonesia",
-      "title": "RB Leipzig vs Hoffenheim, Brajan Gruda dan Cristoph Baumgartner Brace, Die Roten Bullen Menang Telak",
-      "summary": "RB Leipzig sukses melumat Hoffenheim 5-0 di Red Bull Arena. Brajan Gruda dan Christoph Baumgartner masing-masing mencetak dua gol dalam pesta gol ini.",
-      "fetched_at": "2026-03-21 06:00 WIB"
-    },
-    {
-      "source": "Media Indonesia",
-      "title": "Janice Tjen Terhenti di Putaran Pertama Miami Terbuka",
-      "summary": "Janice Tjen takluk dari wakil Kazakhstan, Yulia Putintseva, melalui pertarungan sengit tiga set dengan skor 6-3, 3-6, dan 4-6 di putaran pertama Miami Terbuka.",
-      "fetched_at": "2026-03-21 06:00 WIB"
-    },
-    {
-      "source": "Media Indonesia",
-      "title": "Harga Emas Antam 21 Maret 2026 Anjlok Rp50 Ribu, Cek Rinciannya Hari Ini",
-      "summary": "Harga emas Antam hari ini Sabtu 21 Maret 2026 turun tajam Rp50.000 ke level Rp2.893.000 per gram. Simak rincian harga buyback dan pecahan lainnya di sini.",
-      "fetched_at": "2026-03-21 06:00 WIB"
-    },
-    {
-      "source": "Media Indonesia",
-      "title": "Ikuti Arahan FIFA, AFC Hentikan Sementara Proses Bidding Piala Asia 2031 dan 2035",
-      "summary": "FIFA meminta agar pelaksanaan turnamen kontinental, termasuk Piala Asia, digeser ke tahun genap guna menyesuaikan jadwal global yang lebih harmonis.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "VOA Indonesia",
       "title": "VOA Executive Lounge: Cerita Pendakwah Muda Indonesia di Amerika",
       "summary": "Edisi kali ini berisi cerita pengalaman dari dua pendakwah muda Indonesia di Amerika, Imam Rasul Amin dari kota Scranton, Pennsylvania dan Ustadzah Deria Pratiwi dari Silver Spring, Maryland.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "VOA Indonesia",
       "title": "Badan Meteorologi Peringatkan Potensi Tornado di Amerika",
       "summary": "Badai itu menyebabkan sekitar 100.000 bangunan kehilangan pasokan listrik, sementara cuaca buruk terus berlanjut hingga malam.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "VOA Indonesia",
       "title": "Sambut Musim Semi, Jutaan Orang Rayakan Festival Holi Hindu",
       "summary": "Umat Hindu di India dan berbagai negara di Asia Selatan merayakan Holi, festival warna yang menandai datangnya musim semi, pada Jumat. Mengenakan pakaian putih, mereka saling mengolesi dan menyemprotkan bubuk warna-warni ke teman serta kerabat.\nHari Jumat (14/3) ditetapkan sebagai hari libur nasional di India, memungkinkan masyarakat ikut serta dalam perayaan meriah Holi. Festival ini biasanya berlangsung pada bulan purnama terakhir dalam kalender lunar, menandai berakhirnya musim dingin.\nDi Nepal, perayaan Holi dimulai pada Kamis (12/3) dan berlangsung selama dua hari. Festival penuh warna ini juga dirayakan di berbagai negara Asia Selatan serta di kalangan diaspora India di seluruh dunia.\nHoli merupakan salah satu festival terbesar di India, di mana jutaan orang pulang ke kampung halaman untuk merayakannya bersama keluarga. Perayaan dimulai dengan menyalakan api unggun pada malam festival sebagai simbol kemenangan kebaikan atas kejahatan. Di sekitar api unggun, mereka bernyanyi, menari, dan berdoa kepada dewa-dewa Hindu.\nPerdana Menteri India Narendra Modi menyampaikan ucapan selamat Holi kepada rakyat India melalui media sosial pada hari Jumat. Dalam unggahannya di platform X, Modi menyoroti peran penting festival ini dalam mempererat persatuan dan kebersamaan di antara masyarakat.\n\"Selamat Holi untuk semua. Semoga festival suci yang penuh kegembiraan dan kebahagiaan ini membawa semangat serta energi baru dalam kehidupan setiap orang, sekaligus memperkuat persatuan di antara warga negara,\" tulis Modi dalam bahasa Hindi.\nDi sebuah taman di New Delhi, ribuan orang saling melempar bubuk warna-warni hingga udara dipenuhi kabut pelangi. Sementara itu, di jalanan, peserta festival menari dengan penuh semangat mengikuti dentuman musik dari pengeras suara. Sekelompok pemuda dengan pistol air berlarian mengejar peserta lain, membasahi mereka dengan air berwarna di taman-taman dan gang-gang kota.\nAnak-anak juga ikut merayakannya. Dari atap dan balkon, mereka melempar balon air berisi bubuk warna dan kilauan ke arah orang-orang yang berpesta di bawah.\nLebih dari itu, Holi melambangkan kelahiran kembali dan semangat pembaruan dalam budaya Hindu. [ah/ft]",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "VOA Indonesia",
       "title": "Trump Bertekad Minta Pertanggungjawaban Pihak yang Menuntutnya",
       "summary": "Presiden Amerika Donald Trump bertekad akan meminta pertanggungjawaban pihak yang menuntutnya dalam kasus hukum setelah lengser pada pemerintahan sebelumnya. Pernyataan itu ia sampaikan di Departemen Kehakiman pada Jumat (14/3).\n\"Para pendahulu kita mengubah Departemen Kehakiman ini menjadi Departemen Ketidakadilan. Namun, saya berdiri di hadapan Anda hari ini untuk menyatakan bahwa masa-masa itu sudah berakhir, dan tidak akan pernah kembali. Masa-masa itu tidak akan pernah kembali,\" kata Trump.\nSaat tidak menjabat lagi, Trump dua kali didakwa oleh Departemen Kehakiman. Pertama karena diduga menyimpan dokumen rahasia secara ilegal di rumahnya di Florida, dan kedua karena mencoba membatalkan hasil pemilu 2020. Namun, setelah Trump menang dalam pemilu November, kedua kasus itu dibatalkan. Departemen tersebut beralasan bahwa mereka memiliki kebijakan lama untuk tidak menuntut presiden yang masih menjabat.\n\"Sekarang, sebagai kepala penegak hukum di negara kita, saya akan menuntut dan menuntut pertanggungjawaban penuh dan menyeluruh atas kesalahan dan pelanggaran yang telah terjadi. Rakyat Amerika telah memberi kita mandat, mandat yang tidak pernah terpikirkan oleh banyak orang,\" kata Trump.\nTrump telah memecat jaksa yang menyelidikinya selama pemerintahan Biden dan meninjau ulang ribuan agen FBI yang terlibat dalam penyelidikan terhadap para pendukungnya yang menyerbu Gedung Capitol pada 6 Januari 2021.\nTrump sudah lama mengkritik Departemen Kehakiman dan FBI. Kini, ia menempatkan sekutu politiknya di posisi kepemimpinan tertinggi di kedua lembaga itu. Direktur FBI Kash Patel dan Jaksa Agung Pam Bondi turut hadir dalam pidatonya pada Jumat.\nSaat memperkenalkan Trump, Bondi berkata, \"Kita semua bekerja untuk presiden terhebat dalam sejarah negara kita. ... Ia tidak akan pernah berhenti berjuang untuk kita, dan kita tidak akan pernah berhenti berjuang untuknya dan untuk negara kita.\"\nDalam pidatonya, Trump berjanji akan melakukan \"reformasi bersejarah\" di Departemen Kehakiman dan FBI. Ia menegaskan, \"Di bawah pemerintahan Trump, Departemen Kehakiman dan FBI akan sekali lagi menjadi lembaga pemberantasan kejahatan terkemuka di muka Bumi.\"\nPidato Trump menyerupai suasana rapat umum kampanye. Musik menggelegar dari pengeras suara sebelum ia memasuki Aula Besar Departemen Kehakiman. Dalam pidatonya, Trump menyoroti sejumlah isu utama kampanyenya, mulai dari keamanan perbatasan hingga pemberantasan kejahatan kekerasan.\nMengenai kejahatan, Trump mengatakan bahwa pembunuhan, kejahatan properti, dan perampokan meningkat selama pemerintahan Biden.\n\"Saya tidak punya tugas yang lebih penting sebagai presiden Amerika Serikat selain menghentikan pembunuhan, menegakkan hukum, dan menjadikan Amerika aman kembali. Itulah yang kita lakukan di ruangan ini. Kami ingin melindungi warga Amerika dan semua orang di negara ini,\" ujar Trump. [ah/ft]",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "VOA Indonesia",
       "title": "Hotel Roosevelt: Jendela Sejarah Kota New York",
       "summary": "Hotel ikonik ini dibuka pada 1924 untuk melayani penumpang Grand Central Terminal di dekatnya dan telah melewati berbagai peristiwa bersejarah, dari era Pembatasan, Depresi Besar, Perang Dunia, hingga tragedi 9/11.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "VOA Indonesia",
       "title": "G7 Desak Rusia Terima Gencatan Senjata, Ancam Kenakan Sanksi Baru",
       "summary": "Juru bicara Kremlin Dmitry Peskov mengatakan bahwa Putin masih menunggu jawaban setelah mengajukan beberapa pertanyaan tentang implementasi gencatan senjata.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "VOA Indonesia",
       "title": "Oracle Lirik Batam Jadi Pusat Data",
       "summary": "Pada awal Oktober, Oracle mengumumkan rencananya untuk menginvestasikan lebih dari $6,5 miliar dalam pembangunan wilayah cloud publik pertama di Malaysia.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "VOA Indonesia",
       "title": "Hubungan Diplomatik Menegang, Amerika akan Usir Dubes Afrika Selatan",
       "summary": "Menteri Luar Negeri Amerika Serikat, Marco Rubio, pada Jumat (14/3) mengumumkan bahwa Duta Besar Afrika Selatan untuk Washington telah dinyatakan sebagai persona non-grata, yang menjadi tanda semakin memburuknya hubungan antara kedua negara.\"\nDalam sebuah pernyataan yang diunggah di X, Rubio menyatakan bahwa Duta Besar Afrika Selatan untuk Amerika, Ebrahim Rasool, \"tidak lagi diterima di negara besar kami.\"\n\"Ebrahim Rasool adalah politisi yang suka menghasut tentang ras yang membenci Amerika dan membenci @POTUS [Presiden Amerika Serikat].\"\nBelum ada tanggapan langsung dari Kedutaan Besar Afrika Selatan di Washington.\nLangkah Rubio tersebut diambil di tengah ketegangan hubungan antara Amerika dan Afrika Selatan. Baru-baru ini, Presiden Donald Trump menandatangani instruksi presiden (inpres) yang menangguhkan bantuan ke Afrika Selatan terkait kebijakan perampasan tanah yang kontroversial, yang menurut Trump berpotensi mengarah pada pengambilalihan lahan pertanian milik orang kulit putih. Trump juga menyatakan bahwa petani Afrika Selatan dipersilakan untuk menetap di Amerika Serikat.\nPresiden Afrika Selatan Cyril Ramaphosa, dalam sebuah pernyataan yang diunggah di X, membela tindakan pemerintahnya.\n\"Kami berpedoman pada Konstitusi, yang memberi tanggung jawab kepada negara untuk mengambil langkah-langkah dalam memperbaiki dampak diskriminasi rasial yang terjadi di masa lalu,\" ujarnya.\n\"Kami telah menyampaikan keprihatinan terkait penafsiran yang salah tentang situasi di Afrika Selatan, serta beberapa undang-undang dan posisi kebijakan luar negeri kami,\" kata Ramaphosa setelah Trump menandatangani inpres pada awal Februari. [ah/ft]",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "VOA Indonesia",
       "title": "Analis Soroti Kelemahan dalam Konstitusi Transisi Suriah",
       "summary": "Para pakar hukum menilai bahwa dokumen berisi 53 pasal itu gagal mencerminkan realitas Suriah secara utuh, terutama dalam hal keberagaman etnis dan agamanya.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "VOA Indonesia",
       "title": "Shutdown Kegiatan Pemerintah Amerika Kemungkinan Terhindari",
       "summary": "Kegiatan Pemerintah AS akan tutup pada tengah malam waktu Timur jika anggota parlemen tidak meloloskan resolusi pengeluaran",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Tirto.id",
       "title": "Rekap Hasil Moto3 Brasil 2026 FP1 & Practice: Veda P3, Lolos Q2",
       "summary": "Veda Ega Pratama menempati posisi 3 klasemen kombinasi FP1 dan Practice Moto3 Brasil 2026 yang berlangsung pada 20-21 Maret 2026.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Tirto.id",
       "title": "Prabowo Ucapkan Selamat Idul Fitri 1447 H & Pesan Persatuan",
       "summary": "Prabowo mengucapkan selamat Idul Fitri 1447 H seraya menyampaikan pesan persatuan untuk seluruh masyarakat Indonesia.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Tirto.id",
       "title": "Update Perang Iran vs Israel-Amerika Hari ke-21 & Dampaknya",
       "summary": "Rangkuman kejadian perang AS, Israel vs Iran yang terjadi pada 20 Maret 2026 atau memasuki hari ke-21. Serangan terjadi di fasilitas energi.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Tirto.id",
       "title": "Hasil Moto3 Brasil 2026: Veda Ega Kembali Masuk Top 10 di FP1",
       "summary": "Veda Ega Pratama kembali masuk top 10 dalam sesi FP1 Moto3 Brasil 2026 pada Jumat, 20 Maret. Veda mengungguli pemuncak klasemen Davide Almansa.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Tirto.id",
       "title": "Titik Rekayasa Lalin Malam Takbiran di DKI, Bersifat Situasional",
       "summary": "Berikut ini titik-titik rekayasa lalu lintas di DKI Jakarta saat malam takbiran, Jumat (20/3). Rekayasa ini bersifat situasional.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Tirto.id",
       "title": "Klarifikasi Kades Soal Larangan Salat Id 20 Maret di Sukoharjo",
       "summary": "Simak penjelasan kepala desa soal larangan salat Id di Kedungwinong, Nguter, Sukoharjo. Larangan salat Id ini sempat viral di medsos.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Tirto.id",
       "title": "Jadwal Lengkap & Tuan Rumah FIFA Series Maret 2026, Mana Saja?",
       "summary": "FIFA Series 2026 akan digelar di 8 negara tuan rumah termasuk Indonesia. Simak jadwal lengkap dan format turnamen yang berlangsung pada 26-31 Maret 2026.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Tirto.id",
       "title": "Pemudik Diminta Hindari Puncak Arus Balik Lebaran 24 Maret 2026",
       "summary": "Kemenhub mengimbau pemudik untuk menghindari puncak arus balik Lebaran 2026 pada 24 Maret. Sementara puncak arus mudik telah berlalu hari ini.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Tirto.id",
       "title": "Israel Lempar Gas Air Mata ke Rakyat Palestina yang Salat Id",
       "summary": "Israel menyerang rakyat Palestina dengan gas air mata saat mereka sedang melaksanakan Salat Id di dekat Masjid Al Aqsa.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     },
     {
       "source": "Tirto.id",
       "title": "Prabowo Bakal Takbiran di Sumut dan Salat Idul Fitri di Aceh",
       "summary": "Prabowo akan bertolak ke Sumut untuk melaksanakan takbiran, kemudian akan melakukan salat Id di Aceh, pada pagi hari, 21 Maret 2026.",
-      "fetched_at": "2026-03-21 06:00 WIB"
+      "fetched_at": "2026-03-21 06:55 WIB"
     }
   ]
 }
